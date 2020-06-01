@@ -1,4 +1,25 @@
-.peoples-name{
-    color: white;
-    font-size: 40px;
+.container{
+display: flex;
+/* flex-direction: column; */
+justify-content: space-between;
+width: 100%;
+
+}
+
+.col{
+    margin: 10px;
+}
+
+.true-name{
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.false-name{
+    color: red;
+    font-size: 30px;
+}
+
+:host{
+    width: 100%;
 }
