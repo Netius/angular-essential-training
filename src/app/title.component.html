@@ -1,5 +1,5 @@
 <div class="container">
-<div class="col" *ngFor ="let people of peoples" >
+<div class="col" *ngFor ="let people of peoples">
   <h3 [ngClass]="{'true-name': people.value === true , 'false-name': people.value === false}">{{people.name}}</h3>
   <p>{{people.age}}</p>
   <button (click)="addClass(people.name)" >Click me</button>
